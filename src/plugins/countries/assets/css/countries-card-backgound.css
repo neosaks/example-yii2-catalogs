@@ -1,0 +1,21 @@
+.display-widget .catalogs-plugins-countries.card {
+    position: sticky;
+    overflow: hidden;
+}
+
+.display-widget .catalogs-plugins-countries.card .card-body {
+    position: relative;
+}
+
+.display-widget .catalogs-plugins-countries.card .card-background {
+    position: absolute;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    right: -2rem;
+    bottom: -4rem;
+}
+
+.display-widget .catalogs-plugins-countries.card .card-img-top + div {
+    z-index: -1;
+}

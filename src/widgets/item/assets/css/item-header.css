@@ -1,0 +1,63 @@
+/* Widget (Root) */
+
+.header-widget {
+    position: relative;
+    width: 100%;
+}
+
+/* Cover (1) */
+
+.header-widget .header-cover {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.header-widget .cover-image {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.header-widget .cover-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80), rgba(255, 255, 255, 0) 100%);
+    height: 100%;
+}
+
+/* Content (1) */
+
+.header-widget .header-content {
+    margin: 1rem;
+}
+
+.header-widget .header-title {
+    color: #ffffff;
+}
+
+.header-widget .header-description {
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 1rem;
+}
+
+.header-widget .header-footer {
+    padding-top: 1rem;
+}
+
+.header-widget .btn-outline-white {
+    color: #fff;
+    border-color: #fff;
+}
+
+.header-widget .btn-outline-white:hover {
+    color: #fff;
+    background-color: #ffffff33;
+    border-color: #fff;
+}
+
+.header-widget .btn-outline-white:focus,
+.header-widget .btn-outline-white.focus,
+.header-widget .btn-outline-white.btn:focus,
+.header-widget .btn-outline-white.btn.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
